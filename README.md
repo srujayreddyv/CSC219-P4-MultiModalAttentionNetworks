@@ -6,6 +6,11 @@ In the CSC219 Machine Learning course, we embarked on an ambitious project to ad
 ## Objective
 The primary goal is to improve the detection of fake news by learning and exploiting the correlations between visual and textual content through various attention mechanisms.
 
+## Dataset
+The project utilizes the comprehensive Fakeddit dataset, comprising over 1 million multimodal samples that include text, images, metadata, and comments. 
+
+**Link for Original Dataset**: [Fakeddit Dataset](https://github.com/entitize/Fakeddit)
+
 ## Models Implemented
 1. **Baseline Model**: This foundational model uses convolutional layers for image processing and an LSTM for text analysis.
 2. **Self-Attention Model**: Building upon the baseline, this model incorporates self-attention mechanisms for enhanced feature extraction.
